@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #1F2B4E;
+  --navy2: #233156;
+  --gold: #BF9B3F;
+  --amber: #EDAB1B;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #F0F2F8;
+  color: #1a1a2e;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #BF9B3F;
+  border-radius: 3px;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
